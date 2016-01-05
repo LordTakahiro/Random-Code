@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html >
+	<head>
+		<meta charset="UTF-8">
+			<title>Custom Adventure by Takahiro</title>
+	</head>
+
+	<body onload="getPokeFromXML(); loadOpponentsFromXml();">
+
+		<h1 id="thisHeader" align="center"></h1>
+		<p id="pokeHeader" align="center"></p>
+		
+		<input type="text" id="arrayTest" value="Enter Pokie Id">
+		<button type="button" id="miPokies"> Search </button>
+		<button type="button" id="evo"> Evo Pokie </button>
+		<button type="button" id="givePokie"> Get a Pokemon </button>
+		<button type="button" id="expGain"> Get Exp </button>
+		<button type="button" id="beginGame"> Start! </button>
+		
+		
+		<script src="JS/PokemonHandler.js"> </script>
+		<script src="JS/PokemonReference.js"> </script>
+		<script src="JS/PokemonOpponentList.js"> </script>
+	</body>
+</html>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<opponent id='1' difficulty='1' name='Youngster Joey' pokemon1='1' pokemon2='2' pokemon3='3' pokemon4='4'/>
+	<opponent id='6' difficulty='1' name='Youngster Shady' pokemon1='1' pokemon2='2' pokemon3='3' pokemon4='4'/>
+	
+	<opponent id='2' difficulty='2' name='Youngster Nappy' pokemon1='1' pokemon2='2' pokemon3='3' pokemon4='4'/>
+	<opponent id='7' difficulty='2' name='Youngster aDrive' pokemon1='1' pokemon2='2' pokemon3='3' pokemon4='4'/>
+	
+	<opponent id='3' difficulty='3' name='Youngster Jay' pokemon1='1' pokemon2='2' pokemon3='3' pokemon4='4'/>
+	<opponent id='8' difficulty='3' name='Youngster Mo' pokemon1='1' pokemon2='2' pokemon3='3' pokemon4='4'/>
+	
+	<opponent id='4' difficulty='4' name='Youngster Luke' pokemon1='1' pokemon2='2' pokemon3='3' pokemon4='4'/>
+	<opponent id='9' difficulty='4' name='Youngster Twit' pokemon1='1' pokemon2='2' pokemon3='3' pokemon4='4'/>
+	
+	<opponent id='5' difficulty='5' name='Youngster Gio' pokemon1='1' pokemon2='2' pokemon3='3' pokemon4='4'/>
+	<opponent id='10' difficulty='5' name='Youngster Cybertron' pokemon1='1' pokemon2='2' pokemon3='3' pokemon4='4'/>
+</data>

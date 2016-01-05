@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<item id="1" name="Potion" doesHeal="true" healValue="20"/>
+	<item id="2" name="" doesHeal="false" />
+	<item id="3" name="" doesHeal="false" />
+	<item id="4" name="" doesHeal="false" />
+	<item id="5" name="" doesHeal="false" />
+	<item id="6" name="" doesHeal="false" />
+	<item id="7" name="" doesHeal="false" />
+	<item id="8" name="" doesHeal="false" />
+	<item id="9" name="" doesHeal="false" />
+	<item id="10" name="" doesHeal="false" />
+</data>

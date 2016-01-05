@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html >
+	<head>
+		<meta charset="UTF-8">
+			<title>Create your own Adventure by Lord Takahiro</title>
+			<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+
+		<h1 id="header2" align="center">-Where Angels Fear to Tread-</h1>
+		
+		<p id="adventure" align="center">
+		<font size="5"><b>Backstory: </b></br></font>
+		<font size="4"> You live on a small farm on the outskirts of Ravensgate. Your father left your mother three years ago and </br>
+		never returned back home. You found your mother, two months after your father left, hanging inside of the barn. She could not </br>
+		deal with the grief of losing your father, and not being able to put food on the table for you and your younger sister, so she </br>
+		took her own life. </br>
+</br>
+		Since then you have run the farm and slowly but surely increasing it's profit, season by season. It is just you and your sister </br>
+		now dealing with the harsh realities of the world, together.</br>
+</br>
+		One day a courier came to your door with a letter for you. The letter stated that there was going to be a grand ball held within</br>
+		the castle and you and your sister were invited. You did not want to go to this ball, but your sister has always dreamt of going </br>
+		to one of the Queen's balls. Your sister begs and pleads with you to go and you finally give in. You spend the all of the money </br>
+		you were saving up, to get a new plow horse, to get your little sister a dress for the ball. </br>
+</br>
+		It is now the night of the ball, what is in store for you and (your sisters name)?</br></br></font>
+		</p>
+		<h2 id="classHeader" align="center"> Choose Your Class </h2>
+		<p id="classInfo" align="center">Wizard: +2 Int/Wis | -1 Str/Con</br>Cleric: +2 Cha/Wis | -1 Dex/Refl</br>Warrior: +2 Str/Con | -1 Dex/Refl</br>Rogue: +2 Dex/Cha | -1 Fort/Will</p>
+		<p id="statReference" align="left"></p>
+		<p id="equipInfo" align="center"></p>
+		
+		<div class="classCreation" id="classCreation">
+			<button type="button" id="Wizard" onClick="adventureController(this.id)">Wizard</button>
+			<button type="button" id="Cleric" onClick="adventureController(this.id)">Cleric</button>
+			<button type="button" id="Warrior" onClick="adventureController(this.id)">Warrior</button>
+			<button type="button" id="Rogue" onClick="adventureController(this.id)">Rogue</button>
+			</br></br>	
+		</div>
+		
+		<div class="testButtons" id="testButtons">
+			<button type="button" id="ref" onClick="adventureController(this.id)">Stat Reference</button>
+			<button type="button" id="showEquip" onClick="adventureController(this.id)">Inventory</button>
+			<button type="button" id="reset" onClick="adventureController(this.id)">Reset Character</button>
+			<button type="button" id="attack" onClick="adventureController(this.id)">Test Attack Roll</button>
+			<button type="button" id="testEquip" onClick="adventureController(this.id)">Test Equipment</button>
+			<button type="button" id="storyPage" onClick="adventureController(this.id)">Begin Story</button>
+		</div>
+		
+		<script src="js/index.js"> </script>
+		<script src="js/adventure.js"> </script>
+		<script src="js/storyPage.js"> </script>
+		<!-- <script src="js/bossHandler.js"> </script> -->
+
+
+
+
+
+	</body>
+</html>

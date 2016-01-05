@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<mart id="1" martLevel="5" >
+		<item id="1" price="200" />
+	</mart>
+	<mart id="1" martLevel="10" >
+		<item id="1" price="200" />
+		<item id="2" price="300" />
+	</mart>
+	
+</data>

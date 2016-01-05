@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+			<title>Create your own Adventure by Lord Takahiro</title>
+			<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body onload="bossOnLoad()">
+
+		<h1 id="snakesHead" align="center"></h1>
+		
+		<div id="monsterDiv">
+			<p id="bossName" align="center"> </p>
+			<p id="bossHealth" align="center"> </p>
+			<p id="bossDamage" align="center" > </p>
+			<p id="bossReduction" align="center"> </p>
+		</div>
+		
+		<div class="bosses" >
+			<!-- The commented out items are for testing purposes only.
+			<input type="text" id="bossId" value="Input boss ID">
+			<button type="button" id="BossList" onClick="bossPageController(this.id)"> Read Bosses</button>
+			<button type="button" id="SetBoss" onClick="bossPageController(this.id)">Set Boss</button>
+			<button type="button" id="ClearBoss" onClick="bossPageController(this.id)">Clear Bosses</button>
+			<button type="button" id="testMonster" onClick="bossPageController(this.id)">Test Monster</button> -->
+			<button type="button" id="playerHp" onClick="bossPageController(this.id)">Reset Player Health</button> 
+			<button type="button" id="attackMonster" onClick="bossPageController(this.id)">Attack Monster</button>
+			<button type="button" id="attackMonsterx5" onClick="bossPageController(this.id)">Attack Monster x5</button>
+		</div>
+		
+		<script src="js/bossHandler.js"> </script>
+		<script src="js/index.js"> </script>
+		<script src="js/adventure.js"> </script>
+		<script src="js/storyPage.js"> </script>
+	</body>
+</html>

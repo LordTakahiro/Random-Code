@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html >
+	<head>
+		<meta charset="UTF-8">
+			<title>Custom Adventure by Takahiro</title>
+			<link rel="stylesheet" href="css/style.css">
+	</head>
+
+	<body>
+
+		<h1 id="thisHeader" align="center">-Where Angels Fear to Tread-</h1>
+
+			<p id="adventure" align="center">Adventure Information</p>
+			<p id="userName" align="center"/>
+
+			<div class="beginning" id="beginning">
+				<button type="button" id="1" onClick="indexController(this.id)"> Basic Character </button>
+				<button type="button" id="2" onClick="indexController(this.id)"> Advanced Character </button>
+				</br></br>
+			</div>
+
+			<div class="stats" id="stats">
+				<input type="text" id="charName" value="Input Character's Name">
+				</br></br>
+				<button type="button" id="charNameBtn" onClick="submitCharName()"> Submit Character Name</button>
+				</br></br>
+				<button type="button" id="3" onClick="indexController(this.id)"> Strength Roll </button>
+				<button type="button" id="4" onClick="indexController(this.id)"> Dexterity Roll </button>
+				</br></br>
+				<button type="button" id="5" onClick="indexController(this.id)"> Constitution Roll </button>
+				<button type="button" id="6" onClick="indexController(this.id)"> Wisdom Roll </button>
+				</br></br>
+				<button type="button" id="7" onClick="indexController(this.id);"> Intelligence Roll </button>
+				<button type="button" id="8" onClick="indexController(this.id);"> Charisma Roll </button>
+			</div>
+			
+			<div class="additional" id="additional" >
+				</br></br>
+				<select id="Race List" >
+					<option value="0">Choose Your Race</option>
+					<option value="Human">Human</option>
+					<option value="Orc">Orc</option>
+					<option value="Elf">Elf</option>
+					<option value="Halfling">Halfling</option>
+					<option value="Dwarf">Dwarf</option>
+				</select>
+				<select id="Eye Color" >
+					<option value="0">Choose Your Eye Color</option>
+					<option value="Blue">Blue</option>
+					<option value="Brown">Brown</option>
+					<option value="Green">Green</option>
+					<option value="Black">Black</option>
+					<option value="Red">Red</option>
+					<option value="Yellow">Yellow</option>
+					<option value="Orange">Orange</option>
+					<option value="Hazel">Hazel</option>
+					<option value="Grey">Grey</option>
+					<option value="White">White</option>
+				</select>
+				<select id="Hair Color" >
+					<option value="0">Choose Your Hair Color</option>
+					<option value="Brown">Brown</option>
+					<option value="Blonde">Blonde</option>
+					<option value="Black">Black</option>
+					<option value="White">White</option>
+					<option value="Grey">Grey</option>
+				</select>
+				</br></br>
+				<input type="text" id="charHeight" value="Enter Your Height">
+				<input type="text" id="charWeight" value="Enter Your Weight">
+				</br></br>
+			</div>
+			
+			<div class="newPage" id="newPage" >
+				<button type="button" id="submitCharacter" onclick="indexController(this.id)"> Submit Your Character </button>
+				<button type="button" id="beginAdventure" onClick="indexController(this.id)"> Begin Adventure!!! </button>
+			</div>
+
+		<script src="js/index.js"> </script>
+		<script src="js/adventure.js"> </script>
+		<script src="js/storyPage.js"> </script>
+		<script src="js/bossHandler.js"> </script>
+	</body>
+</html>

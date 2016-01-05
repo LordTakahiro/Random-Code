@@ -1,0 +1,63 @@
+.beginning {
+    text-align: center;
+}
+
+.button {
+    top: 50%;
+}
+
+.stats {
+    text-align: center;
+    visibility: hidden;
+}
+
+.newPage {
+    text-align: center;
+    visibility: hidden;
+}
+
+.classCreation {
+	text-align: center;
+}
+
+.story {
+	text-align: center;
+}
+
+.testButtons {
+	text-align: center;
+}
+
+.additional {
+	text-align: center;
+	visibility: hidden;
+}
+
+.storyText {
+	margin-top: 35px;
+    margin-bottom: 15px;
+    margin-right: 150px;
+    margin-left: 150px;
+	text-align: center;
+	font-size: 18px;
+}
+
+.text {
+	margin-top: 35px;
+    margin-bottom: 15px;
+    margin-right: 120px;
+    margin-left: 200px;
+	text-align: center;
+}
+
+.monsterDiv {
+	display: none;
+}
+
+.death {
+	text-align: center;
+}
+
+.bosses {
+	text-align: center;
+}
