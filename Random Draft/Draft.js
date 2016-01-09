@@ -9,29 +9,124 @@
  
 var header2 = document.getElementById("thisHeader");
 var mainHeader = document.getElementById("mainHeader");
-
-var blankArr = [];
+var pageText = document.getElementById("text");
+var form = document.getElementById("form1");
+var btnCount = 1;
+var textCount = 1;
+var draftText = document.getElementById("draftText");
+var draftBtn = document.getElementById("draftBtn");
+var playerNum = "";
+var poolNum = "";
+var playerNames = [];
 
 function formFunction(){
-	var playerNum = document.getElementById('draftNum').value;
-	var poolNum = document.getElementById('draftPools').value;
+	playerNum = document.getElementById('draftNum').value;
+	poolNum = document.getElementById('draftPools').value;
 	//Validation
 	if(playerNum == null | playerNum == ""){
 		alert('Please enter how many players will be in the draft.');
 	}
-	if(poolNum == null | poolNum == ""){
+	else if(poolNum == null | poolNum == ""){
 		alert('Please enter how many draft pools will be in the draft.');
 	}
-	
+	else if(isNaN(playerNum) || isNaN(poolNum)){
+		alert('Please Only Enter Numbers.');
+	}
+	else{
+		pageText.innerHTML = "";
+		cleanUp(form);
+		draftFunction(playerNum, poolNum, true);
+	}
 }
 
+function draftFunction(players, pools, isFirst){
+	if(isFirst){
+		pageText.innerHTML = "Enter Players Names Seperated by a Comma (Optional)";
+		var textNames = createTextInput(1,draftText);
+		var btnNames = createButtons("Submit",draftBtn);
+	}
+	else{
+		pageText.innerHTML = "Enter Draft Components (Seperated by a Comma) and Click on Each Person's Name to Draft From All Pools"
+		createTextInput(pools,draftText);
+		if(playerNames.length > 0){
+			for(var i = 0; i < playerNames.length; i++){
+				createButtons(playerNames[i],draftBtn);
+			}
+		}
+		else
+			for(var j = 0; j < players;j++){
+				createButtons("Player " + (j+1),draftBtn);
+			}
+	}
+}
 
+function createButtons(value, element){
+	var button = document.createElement("input");
+	button.type = "button";
+	button.value = value;
+	button.style.marginRight = "5px";
+	button.style.marginTop = "10px";
+	button.id = "btn" + btnCount;
+	button.onclick = function() {
+		buttonController(button.id);
+	};
+	element.appendChild(button);
+	btnCount++;
+}
 
+function createTextInput(pools, element){
+	for(var i = 0; i < pools; i++){
+		var input = document.createElement("textarea");
+		input.id = "text" + textCount;
+		input.row = 1;
+		input.cols = 25;
+		input.style.height = "100px"
+		input.style.resize = "none";
+		input.style.marginRight = "8px";
+		input.style.marginTop = "8px";
+		element.appendChild(input);
+		textCount++;
+	}
+}
 
+function splitPlayerName(str){
+	if(str == undefined || str == ''){
+		playerNames = [];
+		cleanUp(draftText);
+		cleanUp(draftBtn);
+		draftFunction(playerNum,poolNum,false);	
+		
+	}
+	else{		
+		playerNames = str.split(',');
+		for(var i = 0; i < playerNames.length; i++){
+			if(playerNames[i].length > 12){
+				alert(playerNames[i] + " contains too many characters. Max 12");
+			}
+				
+		}
+		if(playerNames.length != playerNum){
+			alert('Amount of Players Names Entered Does Not Match the Amount of Participants Entered.');
+		}
+		else{
+			header2.innerHTML = playerNames;
+			cleanUp(draftText);
+			cleanUp(draftBtn);
+			draftFunction(playerNum,poolNum,false);	
+		}
+	}
+}
 
-
-
-
+function buttonController(e){
+	switch(e){
+		case 'btn1': 
+			var textBox = document.getElementById("text1").value;
+			splitPlayerName(textBox);
+			break;
+		default: 
+			break;
+	}
+}
 
 function cleanUpSpecific(parent, element) {
 	parent.removeChild(element);
@@ -42,6 +137,7 @@ function cleanUp(parent) {
 		parent.removeChild(parent.lastChild);
 	}
 }
+
 /*function rollSuperstarTy(){
 	var length = superstars.length;
 	var superstarRolled = Math.floor(Math.random() * (length));
