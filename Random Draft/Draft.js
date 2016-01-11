@@ -11,13 +11,20 @@ var header2 = document.getElementById("thisHeader");
 var mainHeader = document.getElementById("mainHeader");
 var pageText = document.getElementById("text");
 var form = document.getElementById("form1");
-var btnCount = 1;
-var textCount = 1;
 var draftText = document.getElementById("draftText");
 var draftBtn = document.getElementById("draftBtn");
+var playerText = document.getElementById("playerText");
+var draftLink = document.getElementById("link");
+var btnCount = 1;
+var textCount = 1;
+var testCount = 2;
 var playerNum = "";
 var poolNum = "";
+var combinedPara = "";
 var playerNames = [];
+var draftArr = [];
+var playerArr = [];
+var firstRun = true;
 
 function formFunction(){
 	playerNum = document.getElementById('draftNum').value;
@@ -49,13 +56,23 @@ function draftFunction(players, pools, isFirst){
 		pageText.innerHTML = "Enter Draft Components (Seperated by a Comma) and Click on Each Person's Name to Draft From All Pools"
 		createTextInput(pools,draftText);
 		if(playerNames.length > 0){
-			for(var i = 0; i < playerNames.length; i++){
-				createButtons(playerNames[i],draftBtn);
+			for(var i = 0; i < playerNames.length; i++){		
+				var newPara = document.createElement('p');
+				newPara.id = "para" + btnCount;
+				newPara.value = 1;
+				newPara.innerHTML = "<br />" + playerNames[i] + "'s Draft List: ";
+				playerText.appendChild(newPara);
+				createButtons(playerNames[i],draftBtn);		
 			}
 		}
 		else
-			for(var j = 0; j < players;j++){
-				createButtons("Player " + (j+1),draftBtn);
+			for(var j = 0; j < players;j++){			
+				var newPara = document.createElement('p');
+				newPara.id = "para" + btnCount;
+				newPara.innerHTML = "<br />Player " + (j+1) + "'s Draft List: ";
+				newPara.value = 1;
+				playerText.appendChild(newPara);
+				createButtons("Player " + (j+1),draftBtn);	
 			}
 	}
 }
@@ -66,9 +83,9 @@ function createButtons(value, element){
 	button.value = value;
 	button.style.marginRight = "5px";
 	button.style.marginTop = "10px";
-	button.id = "btn" + btnCount;
+	button.id = btnCount;
 	button.onclick = function() {
-		buttonController(button.id);
+		buttonController(button);
 	};
 	element.appendChild(button);
 	btnCount++;
@@ -95,7 +112,6 @@ function splitPlayerName(str){
 		cleanUp(draftText);
 		cleanUp(draftBtn);
 		draftFunction(playerNum,poolNum,false);	
-		
 	}
 	else{		
 		playerNames = str.split(',');
@@ -109,7 +125,6 @@ function splitPlayerName(str){
 			alert('Amount of Players Names Entered Does Not Match the Amount of Participants Entered.');
 		}
 		else{
-			header2.innerHTML = playerNames;
 			cleanUp(draftText);
 			cleanUp(draftBtn);
 			draftFunction(playerNum,poolNum,false);	
@@ -118,14 +133,76 @@ function splitPlayerName(str){
 }
 
 function buttonController(e){
-	switch(e){
-		case 'btn1': 
+	switch(e.id){
+		case '1': 
 			var textBox = document.getElementById("text1").value;
 			splitPlayerName(textBox);
 			break;
 		default: 
+			draftRoller(e);
 			break;
 	}
+}
+
+function draftRoller(e){
+	var currDrafts = [];
+	var playerPara = document.getElementById("para"+e.id);
+	for(var i = 0; i < poolNum; i++){
+		if(firstRun){
+			getArrays();
+			firstRun = false;
+		}
+		var length = draftArr[i].length;
+		var draftRolled = Math.floor(Math.random()* (length));
+		var draftee = draftArr[i][draftRolled];
+		if(draftee != undefined){
+			currDrafts.push(draftee);
+			playerPara.innerHTML += '<br />' + playerPara.value + ". " + draftee;
+			playerPara.value++;
+			draftArr[i].splice(draftRolled,1);
+		}
+		else{
+			alert('There are no more possible draft picks in pool #' + (i+1));
+			draftArr.splice(i,1);
+			poolNum--;
+			i--;
+		}
+	}
+	if(poolNum == 0){
+		for(var i = 0; i < playerNum; i++){
+			var para = document.getElementById("para"+(i+2));
+			combinedPara += para.innerHTML;
+			combinedPara = combinedPara.replace(/<br\s*[\/]?>/g, ' \r\n');
+		}
+		exportCSV();
+		cleanUp(draftBtn);
+		cleanUp(draftText);
+	}
+	else{
+		header2.innerHTML = currDrafts + " has been drafted by " + e.value + "!!!";	
+	}
+}
+
+function getArrays(){	
+	for(var i = 0; i < poolNum; i++){
+		var poolVal = document.getElementById("text"+(i+2)).value;
+		var innerArr = poolVal.split(',');
+ 		draftArr.push(innerArr);
+	}
+	for(var j = 0; i < playerNum; i++){
+		var newArr = [];
+		playerArr.push(newArr);
+	}
+}
+
+function exportCSV(){
+	var csvContent = "data:text/plain;charset=utf-8," + combinedPara;
+	var encodedUri = encodeURI(csvContent);
+	var link = document.createElement("a");
+	link.setAttribute("href", encodedUri);
+	link.setAttribute("download", "draft_data.txt");
+	link.innerHTML = "Click Here to Download the Draft Data!"
+	draftLink.appendChild(link);
 }
 
 function cleanUpSpecific(parent, element) {
@@ -137,115 +214,3 @@ function cleanUp(parent) {
 		parent.removeChild(parent.lastChild);
 	}
 }
-
-/*function rollSuperstarTy(){
-	var length = superstars.length;
-	var superstarRolled = Math.floor(Math.random() * (length));
-	var superstar = superstars[superstarRolled];
-	if(superstar != undefined){		
-		superstarHeader.innerHTML = superstar + " has been drafted by Tyler!!!";
-		superstars.splice(superstarRolled, 1);
-		tyFunction(superstar);
-	}
-	else
-		superstarHeader.innerHTML = "There are no more superstar's to choose from!";
-}
-
-function rollDivaTy(){
-	var length = divas.length;
-	var divasRolled = Math.floor(Math.random() * (length));
-	var diva = divas[divasRolled];
-	if(diva != undefined){		
-		superstarHeader.innerHTML = diva + " has been drafted by Tyler!!!";
-		divas.splice(divasRolled, 1);
-		tyFunction(diva);
-	}
-	else
-		superstarHeader.innerHTML = "There are no more diva's to choose from!";
-}
-
-function rollTagTy(){
-	var length = tagTeams.length;
-	var superstarRolled = Math.floor(Math.random() * (length));
-	var tag = tagTeams[superstarRolled];
-	if(tag != undefined){		
-		superstarHeader.innerHTML = tag + " has been drafted by Tyler!!!";
-		tagTeams.splice(superstarRolled, 1);
-		tyFunction(tag);
-	}
-	else
-		superstarHeader.innerHTML = "There are no more superstar's to choose from!";
-}
-
-function rollSuperstarMike(){
-	var length = superstars.length;
-	var superstarRolled = Math.floor(Math.random() * (length));
-	var superstar = superstars[superstarRolled];
-	if(superstar != undefined){	
-		superstarHeader.innerHTML = superstar + " has been drafted by Mike!!!";
-		superstars.splice(superstarRolled, 1);
-		mikeFunction(superstar);
-	}
-	else
-		superstarHeader.innerHTML = "There are no more superstar's to choose from!";
-}
-
-function rollDivaMike(){
-	var length = divas.length;
-	var divasRolled = Math.floor(Math.random() * (length));
-	var diva = divas[divasRolled];
-	if(diva != undefined){		
-		superstarHeader.innerHTML = diva + " has been drafted by Mike!!!";
-		divas.splice(divasRolled, 1);
-		mikeFunction(diva);
-	}
-	else
-		superstarHeader.innerHTML = "There are no more diva's to choose from!";
-}
-
-function rollTagMike(){
-	var length = tagTeams.length;
-	var superstarRolled = Math.floor(Math.random() * (length));
-	var tag = tagTeams[superstarRolled];
-	if(tag != undefined){		
-		superstarHeader.innerHTML = tag + " has been drafted by Mike!!!";
-		tagTeams.splice(superstarRolled, 1);
-		mikeFunction(tag);
-	}
-	else
-		superstarHeader.innerHTML = "There are no more superstar's to choose from!";
-}
-
-function tyFunction(superstar){
-	tyArr.push(superstar);
-	tyStr = "Ty's Draft List: ";
-	var count = 0;
-	for(var i=0;i<tyArr.length;i++){
-		count++
-		tyStr += '<br />' + count + ". " + tyArr[i];
-		tyHeader.innerHTML = tyStr;
-	}
-}
-
-function mikeFunction(superstar){
-	mikeArr.push(superstar);
-	mikeStr = "Mike's Draft List: ";
-	var count = 0;
-	for(var i=0;i<mikeArr.length;i++){
-		count++
-		mikeStr += '<br />' + count + ". " + mikeArr[i];
-		mikeHeader.innerHTML = mikeStr;
-	}
-}*/
-
-
-
-
-
-
-
-
-
-
-
-
