@@ -1,13 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <data>
-	<item id="1" name="Potion" doesHeal="true" healValue="20"/>
-	<item id="2" name="" doesHeal="false" />
-	<item id="3" name="" doesHeal="false" />
-	<item id="4" name="" doesHeal="false" />
-	<item id="5" name="" doesHeal="false" />
-	<item id="6" name="" doesHeal="false" />
-	<item id="7" name="" doesHeal="false" />
-	<item id="8" name="" doesHeal="false" />
-	<item id="9" name="" doesHeal="false" />
-	<item id="10" name="" doesHeal="false" />
+	<!-- Potions -->
+	<item id="1"  name="Potion" 		canHeal="true"  ppHeal="false" healValue="20"/>
+	<item id="2"  name="Super Potion" 	canHeal="true"  ppHeal="false" healValue="50" />
+	<item id="3"  name="Hyper Potion" 	canHeal="true"  ppHeal="false" healValue="200" />
+	<item id="4"  name="Max Potion" 	canHeal="true"  ppHeal="false" healPerc="true" healValue="100" />
+	<item id="5" name="Full Restore" 	canHeal="true"  ppHeal="false" healPerc="true" healValue="100" statusCure="0" />
+	<item id="6"  name="Antidote" 		canHeal="false" ppHeal="false" statusCure="4" />
+	<item id="7"  name="Parlyz Heal" 	canHeal="false" ppHeal="false" statusCure="3" />
+	<item id="8"  name="Burn Heal" 		canHeal="false" ppHeal="false" statusCure="1" />
+	<item id="9"  name="Ice Heal" 		canHeal="false" ppHeal="false" statusCure="2" />
+	<item id="10" name="Full Heal" 		canHeal="false" ppHeal="false" statusCure="0" />
+	<item id="11" name="Awakening" 		canHeal="false" ppHeal="false" statusCure="5" />
+	<item id="12" name="Ether" 			canHeal="false" ppHeal="true"  healValue="10" />
+	<item id="13" name="Max Ether" 		canHeal="false" ppHeal="true"  healValue="0" />
+	<item id="14" name="Elixir" 		canHeal="false" ppHeal="true"  allMovesHeal="true" healValue="10" />
+	<item id="15" name="Max Elixir" 	canHeal="false" ppHeal="true"  allMovesHeal="true" healValue="0" />
+	
+	
+	<!-- Stones -->
+	<item id="" name="Fire Stone" 		canHeal="false" ppHeal="false" stoneID="1" />
+	<item id="" name="Water Stone" 		canHeal="false" ppHeal="false" stoneID="2" />
+	<item id="" name="Thunder Stone" 	canHeal="false" ppHeal="false" stoneID="3" />
+	<item id="" name="Leaf Stone" 		canHeal="false" ppHeal="false" stoneID="4" />
+	<item id="" name="Moon Stone" 		canHeal="false" ppHeal="false" stoneID="5" />
+	<item id="" name="Sun Stone" 		canHeal="false" ppHeal="false" stoneID="6" />
+	<item id="" name="Shiny Stone" 		canHeal="false" ppHeal="false" stoneID="7" />
+	<item id="" name="Dusk Stone" 		canHeal="false" ppHeal="false" stoneID="8" />
+	<item id="" name="Dawn Stone" 		canHeal="false" ppHeal="false" stoneID="9" />
+	<item id="" name="Trade Stone" 		canHeal="false" ppHeal="false" stoneID="10" />
+	
 </data>

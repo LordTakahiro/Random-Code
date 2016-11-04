@@ -17,6 +17,7 @@
 *
 *
 **/
+var POKEDEX_MAX_NUM = 130;
 
 var STATUS_NONE = 0;
 var STATUS_BURNED = 1;
@@ -26,6 +27,7 @@ var STATUS_POISONED = 4;
 var STATUS_ASLEEP = 5;
 var STATUS_CONFUSED = 6;
 
+var NO_SECOND_TYPE = -1;
 var TYPE_NORMAL = 0;
 var TYPE_FIRE = 1;
 var TYPE_FIGHTING = 2;
@@ -53,10 +55,15 @@ var startingFights = [];
 
 
 function createStartingFights(){
-	var opp1 = {pokemon:getPokieById(1)};
-	var opp2 = {pokemon1:getPokieById(1),pokemon2:getPokieById(2)};
-	var opp3 = {pokemon1:getPokieById(1),pokemon2:getPokieById(2),pokemon3:getPokieById(3)};
+	var opp1 = {pokemon:getPokieById(randomPokemon)};
+	var opp2 = {pokemon1:getPokieById(randomPokemon),pokemon2:getPokieById(randomPokemon)};
+	var opp3 = {pokemon1:getPokieById(randomPokemon),pokemon2:getPokieById(randomPokemon),pokemon3:getPokieById(randomPokemon)};
 	startingFights.push(opp1,opp2,opp3);
+}
+
+function randomPokemon(){
+	var randomPoke = Math.floor((Math.random() * POKEDEX_MAX_NUM) + 1);
+	return randomPoke;
 }
 
 

@@ -57,11 +57,8 @@ document.getElementById("beginGame").addEventListener("click",startGame,false);
 		var spAtk = calculateStatValue(baseSpAtk,tempPokie);
 		var spDef = calculateStatValue(baseSpDef,tempPokie);
 		var speed = calculateStatValue(baseSpeed,tempPokie);
-		var Type2 = type2;
-		if (Type2 == null){
-			Type2 = -1;
-		}
-		var pokemon = {id:id,name:name,type:type,type2:Type2,hp:hp,baseHp:baseHp,attack:attack,baseAtk:baseAttack,defense:defense,baseDef:
+
+		var pokemon = {id:id,name:name,type:type,type2:type2,hp:hp,baseHp:baseHp,attack:attack,baseAtk:baseAttack,defense:defense,baseDef:
 		baseDefense,spAtk:spAtk,baseSpAtk:baseSpAtk,spDef:spDef,baseSpDef:baseSpDef,speed:speed,baseSpd:baseSpeed,accuracy:100
 		,evasion:100,status:0,level:5,baseExp:baseExp,currExp:0,expToNext:0,evoLevel:evoLevel,needsStone:needsStone,stoneId:stoneId,
 		slot1:-1,slot2:-1,slot3:-1,slot4:-1};
@@ -82,15 +79,22 @@ document.getElementById("beginGame").addEventListener("click",startGame,false);
 	  {// code for IE6, IE5
 	  xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
 	  }
+
 	xmlhttp.open("GET","pokemon.xml",false);
 	xmlhttp.send();
 	xmlDoc = xmlhttp.responseXML; 
 	var pokemon_xml = xmlDoc.getElementsByTagName('pokemon');
+
 	for(var i=0; i < pokemon_xml.length;i++){
+
 		var id = pokemon_xml[i].getAttribute('id');
 		var name = pokemon_xml[i].getAttribute('Name');
 		var type = pokemon_xml[i].getAttribute('Type');
-		var type2 = pokemon_xml[i].getAttribute('Type2');
+		var type2 = NO_SECOND_TYPE;
+		if(pokemon_xml[i].getAttribute('Type2')){
+			type2 = pokemon_xml[i].getAttribute('Type2');
+		}
+
 		var baseHp = pokemon_xml[i].getAttribute('BaseHp');
 		var baseAttack = pokemon_xml[i].getAttribute('BaseAttack');
 		var baseDefense = pokemon_xml[i].getAttribute('BaseDefense');
@@ -101,8 +105,8 @@ document.getElementById("beginGame").addEventListener("click",startGame,false);
 		var evoLevel = pokemon_xml[i].getAttribute('EvoLevel');
 		var needsStone = pokemon_xml[i].getAttribute('NeedsStone');
 		var stoneId = '0';
-		if (needsStone == "true"){
-			stoneId = pokemon_xml[i].getAttribute('StoneId');
+		if (needsStone != "false"){
+			stoneId = needsStone;
 		}
 		
 		setPokiemon(id,name,type,type2,baseHp,baseAttack,baseDefense,baseSpAtk,baseSpDef,baseSpeed,baseExp,evoLevel,needsStone,stoneId);

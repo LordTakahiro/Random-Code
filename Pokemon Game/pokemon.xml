@@ -1,265 +1,266 @@
 <?xml version="1.0" encoding="utf-8"?>
 <data>
 
-	<pokemon id="1" Name="Bulbasaur" Type="5" Type2="6" BaseHp="45" BaseAttack="49" BaseDefense="49" BaseSpAtk="65" BaseSpDef="65" BaseSpeed="45" BaseExp="64" EvoLevel="15" NeedsStone="false"></pokemon>
+	<pokemon id="2"   Name="Ivysaur"		Type="5" Type2="6"  BaseHp="60"  BaseAttack="62"  BaseDefense="63"  BaseSpAtk="80"  BaseSpDef="80"  BaseSpeed="60" BaseExp="141" EvoLevel="36"  NeedsStone="false"></pokemon>
 	
-	<pokemon id="2" Name="Ivysaur" Type="5" Type2="6" BaseHp="60" BaseAttack="62" BaseDefense="63" BaseSpAtk="80" BaseSpDef="80" BaseSpeed="60" BaseExp="141" EvoLevel="36" NeedsStone="false"></pokemon>
+	<pokemon id="3"   Name="Venusaur"		Type="5" Type2="6"  BaseHp="80"  BaseAttack="82"  BaseDefense="83"  BaseSpAtk="100" BaseSpDef="100" BaseSpeed="80" BaseExp="208" EvoLevel="101" NeedsStone="false"></pokemon>
 	
-	<pokemon id="3" Name="Venusaur" Type="5" Type2="6" BaseHp="80" BaseAttack="82" BaseDefense="83" BaseSpAtk="100" BaseSpDef="100" BaseSpeed="80" BaseExp="208" EvoLevel="101" NeedsStone="false"></pokemon>
+	<pokemon id="4"   Name="Charmander"		Type="1" Type2="0"  BaseHp="45"  BaseAttack="49"  BaseDefense="49"  BaseSpAtk="65"  BaseSpDef="65"  BaseSpeed="45" BaseExp="65"  EvoLevel="15"  NeedsStone="false"></pokemon>
 	
-	<pokemon id="4" Name="Charmander" Type="1" Type2="0" BaseHp="45" BaseAttack="49" BaseDefense="49" BaseSpAtk="65" BaseSpDef="65" BaseSpeed="45" BaseExp="65" EvoLevel="15" NeedsStone="false"></pokemon>
+	<pokemon id="5"   Name="Charmeleon"		Type="1" Type2="0"  BaseHp="60"  BaseAttack="62"  BaseDefense="63"  BaseSpAtk="80"  BaseSpDef="80"  BaseSpeed="60" BaseExp="142" EvoLevel="36"  NeedsStone="false"></pokemon>
 	
-	<pokemon id="5" Name="Charmeleon" Type="1" Type2="0" BaseHp="60" BaseAttack="62" BaseDefense="63" BaseSpAtk="80" BaseSpDef="80" BaseSpeed="60" BaseExp="142" EvoLevel="36" NeedsStone="false"></pokemon>
+	<pokemon id="6"   Name="Charizard" 		Type="1" Type2="4"  BaseHp="78"  BaseAttack="84"  BaseDefense="78"  BaseSpAtk="109" BaseSpDef="85"  BaseSpeed="100" BaseExp="209" EvoLevel="101" NeedsStone="false" ></pokemon>
 	
-	<pokemon id="6" Name="Charizard" Type="1" Type2="4" BaseHp="78" BaseAttack="84" BaseDefense="78" BaseSpAtk="109" BaseSpDef="85" BaseSpeed="100" BaseExp="209" EvoLevel="101" NeedsStone="false" ></pokemon>
+	<pokemon id="1"   Name="Bulbasaur"	 	Type="5" Type2="6"  BaseHp="45"  BaseAttack="49"  BaseDefense="49"  BaseSpAtk="65"  BaseSpDef="65"  BaseSpeed="45" BaseExp="64"  EvoLevel="15"  NeedsStone="false"></pokemon>
 	
-	<pokemon id="7" Name="Squirtle" Type="3" Type2="0" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
+	<pokemon id="7"   Name="Squirtle"		Type="3" Type2="0"  BaseHp="60"  BaseAttack="45"  BaseDefense="50"  BaseSpAtk="90"  BaseSpDef="80"  BaseSpeed="70" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
 	
-	<pokemon id="8" Name="Wartortle" Type="3" Type2="0" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
+	<pokemon id="8"   Name="Wartortle"		Type="3" Type2="0"  BaseHp="44"  BaseAttack="48"  BaseDefense="65"  BaseSpAtk="50"  BaseSpDef="64"  BaseSpeed="43" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
 	
-	<pokemon id="9" Name="Blastoise" Type="3" Type2="0" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
+	<pokemon id="9"   Name="Blastoise"		Type="3" Type2="0"  BaseHp="59"  BaseAttack="63"  BaseDefense="80"  BaseSpAtk="65"  BaseSpDef="80"  BaseSpeed="58" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
 	
-	<pokemon id="10" Name="Caterpie" Type="12" Type2="" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
+	<pokemon id="10"  Name="Caterpie"		Type="12" Type2=""  BaseHp="79"  BaseAttack="83"  BaseDefense="100" BaseSpAtk="85"  BaseSpDef="105" BaseSpeed="78" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
 	
-	<pokemon id="11" Name="Metapod" Type="12" Type2="" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
+	<pokemon id="11"  Name="Metapod"     	Type="12" Type2=""  BaseHp="45"  BaseAttack="30"  BaseDefense="35"  BaseSpAtk="20"  BaseSpDef="20"  BaseSpeed="45" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
 	
-	<pokemon id="12" Name="Butterfree" Type="12" Type2="6" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
+	<pokemon id="12"  Name="Butterfree"  	Type="12" Type2="6" BaseHp="50"  BaseAttack="20"  BaseDefense="55"  BaseSpAtk="25"  BaseSpDef="25"  BaseSpeed="30" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
 	
-	<pokemon id="13" Name="Weedle" Type="12" Type2="6" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
+	<pokemon id="13"  Name="Weedle"      	Type="12" Type2="6" BaseHp="40"  BaseAttack="35"  BaseDefense="30"  BaseSpAtk="20"  BaseSpDef="20"  BaseSpeed="50" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
 	
-	<pokemon id="14" Name="Kakuna" Type="12" Type2="6" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
+	<pokemon id="14"  Name="Kakuna"      	Type="12" Type2="6" BaseHp="45"  BaseAttack="25"  BaseDefense="50"  BaseSpAtk="25"  BaseSpDef="25"  BaseSpeed="35" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
 	
-	<pokemon id="15" Name="Beedrill" Type="12" Type2="6" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
+	<pokemon id="15"  Name="Beedrill"    	Type="12" Type2="6" BaseHp="65"  BaseAttack="90"  BaseDefense="40"  BaseSpAtk="45"  BaseSpDef="80"  BaseSpeed="75" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
 	
-	<pokemon id="16" Name="Pidgey" Type="0" Type2="4" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
+	<pokemon id="16"  Name="Pidgey"      	Type="0" Type2="4"  BaseHp="40"  BaseAttack="45"  BaseDefense="40"  BaseSpAtk="35"  BaseSpDef="35"  BaseSpeed="56" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
 	
-	<pokemon id="17" Name="Pidgeotto" Type="0" Type2="4" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
+	<pokemon id="17"  Name="Pidgeotto"   	Type="0" Type2="4"  BaseHp="63"  BaseAttack="60"  BaseDefense="55"  BaseSpAtk="50"  BaseSpDef="50"  BaseSpeed="71" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
 	
-	<pokemon id="18" Name="Bird Jesus" Type="0" Type2="4" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
+	<pokemon id="18"  Name="Bird Jesus"  	Type="0" Type2="4"  BaseHp="83"  BaseAttack="80"  BaseDefense="75"  BaseSpAtk="70"  BaseSpDef="70"  BaseSpeed="101" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
 	
-	<pokemon id="19" Name="Rattata" Type="0" Type2="" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
+	<pokemon id="19"  Name="Rattata"     	Type="0" Type2=""   BaseHp="30"  BaseAttack="56"  BaseDefense="35"  BaseSpAtk="25"  BaseSpDef="35"  BaseSpeed="72" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
 	
-	<pokemon id="20" Name="Raticate" Type="0" Type2="" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
+	<pokemon id="20"  Name="Raticate"    	Type="0" Type2=""   BaseHp="55"  BaseAttack="81"  BaseDefense="60"  BaseSpAtk="50"  BaseSpDef="70"  BaseSpeed="97" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
 	
-	<pokemon id="21" Name="Spearow" Type="0" Type2="4" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
+	<pokemon id="21"  Name="Spearow"     	Type="0" Type2="4"  BaseHp="40"  BaseAttack="60"  BaseDefense="30"  BaseSpAtk="31"  BaseSpDef="31"  BaseSpeed="70" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
 	
-	<pokemon id="22" Name="Fearow" Type="0" Type2="4" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
+	<pokemon id="22"  Name="Fearow"      	Type="0" Type2="4"  BaseHp="65"  BaseAttack="90"  BaseDefense="65"  BaseSpAtk="61"  BaseSpDef="61"  BaseSpeed="100" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
 	
-	<pokemon id="23" Name="Ekans" Type="6" Type2="" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
+	<pokemon id="23"  Name="Ekans"       	Type="6" Type2=""   BaseHp="35"  BaseAttack="60"  BaseDefense="44"  BaseSpAtk="40"  BaseSpDef="54"  BaseSpeed="55" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
 	
-	<pokemon id="24" Name="Arbok" Type="6" Type2="" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
+	<pokemon id="24"  Name="Arbok"       	Type="6" Type2=""   BaseHp="60"  BaseAttack="85"  BaseDefense="69"  BaseSpAtk="65"  BaseSpDef="79"  BaseSpeed="80" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
 	
-	<pokemon id="25" Name="Pikachu" Type="7" Type2="" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
+	<pokemon id	="25"  Name="Pikachu" 	 	Type="7" Type2=""   BaseHp="35"  BaseAttack="55"  BaseDefense="40"  BaseSpAtk="50"  BaseSpDef="50"  BaseSpeed="90" BaseExp=""    EvoLevel=""    NeedsStone="3" ></pokemon>
 	
-	<pokemon id="26" Name="Raichu" Type="7" Type2="" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
+	<pokemon id="26"  Name="Raichu" 	 	Type="7" Type2=""   BaseHp="60"  BaseAttack="90"  BaseDefense="55"  BaseSpAtk="90"  BaseSpDef="80"  BaseSpeed="110" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
 	
-	<pokemon id="27" Name="Sandshrew" Type="8" Type2="" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
+	<pokemon id="27"  Name="Sandshrew" 	   	Type="8" Type2=""   BaseHp="50"  BaseAttack="75"  BaseDefense="85"  BaseSpAtk="20"  BaseSpDef="30"  BaseSpeed="40" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
 	
-	<pokemon id="28" Name="Sandslash" Type="8" Type2="" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
+	<pokemon id="28"  Name="Sandslash" 	   	Type="8" Type2=""   BaseHp="75"  BaseAttack="100" BaseDefense="110" BaseSpAtk="45"  BaseSpDef="55"  BaseSpeed="65" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
 	
-	<pokemon id="29" Name="Nidoran(Girl)" Type="6" Type2="" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
+	<pokemon id="29"  Name="Nidoran(Girl)" 	Type="6" Type2=""   BaseHp="55"  BaseAttack="47"  BaseDefense="52"  BaseSpAtk="40"  BaseSpDef="40"  BaseSpeed="41" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
 	
-	<pokemon id="30" Name="Nidorina" Type="6" Type2="" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
+	<pokemon id="30"  Name="Nidorina" 		Type="6" Type2=""   BaseHp="70"  BaseAttack="62"  BaseDefense="67"  BaseSpAtk="55"  BaseSpDef="55"  BaseSpeed="56" BaseExp=""    EvoLevel=""    NeedsStone="5" ></pokemon>
 	
-	<pokemon id="31" Name="Nidoqueen" Type="6" Type2="8" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
+	<pokemon id="31"  Name="Nidoqueen" 		Type="6" Type2="8"  BaseHp="90"  BaseAttack="92"  BaseDefense="87"  BaseSpAtk="75"  BaseSpDef="85"  BaseSpeed="76" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
 	
-	<pokemon id="32" Name="Nidoran(Boy)" Type="6" Type2="" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
+	<pokemon id="32"  Name="Nidoran(Boy)" 	Type="6" Type2=""   BaseHp="46"  BaseAttack="57"  BaseDefense="40"  BaseSpAtk="40"  BaseSpDef="40"  BaseSpeed="50" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
 	
-	<pokemon id="33" Name="Nidorino" Type="6" Type2="" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
+	<pokemon id="33"  Name="Nidorino" 		Type="6" Type2=""   BaseHp="61"  BaseAttack="72"  BaseDefense="57"  BaseSpAtk="55"  BaseSpDef="55"  BaseSpeed="65" BaseExp=""    EvoLevel=""    NeedsStone="5" ></pokemon>
 	
-	<pokemon id="34" Name="Nidoking" Type="6" Type2="8" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
+	<pokemon id="34"  Name="Nidoking" 		Type="6" Type2="8"  BaseHp="81"  BaseAttack="102" BaseDefense="77"  BaseSpAtk="85"  BaseSpDef="75"  BaseSpeed="85" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
 	
-	<pokemon id="35" Name="Clefairy" Type="17" Type2="" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
+	<pokemon id="35"  Name="Clefairy" 		Type="17" Type2=""  BaseHp="70"  BaseAttack="45"  BaseDefense="48"  BaseSpAtk="60"  BaseSpDef="65"  BaseSpeed="35" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
 	
-	<pokemon id="36" Name="Clefable" Type="17" Type2="" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
+	<pokemon id="36"  Name="Clefable" 		Type="17" Type2=""  BaseHp="95"  BaseAttack="70"  BaseDefense="73"  BaseSpAtk="95"  BaseSpDef="90"  BaseSpeed="60" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
 	
-	<pokemon id="37" Name="Vulpix" Type="1" Type2="" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
+	<pokemon id="37"  Name="Vulpix" 		Type="1" Type2=""   BaseHp="38"  BaseAttack="41"  BaseDefense="40"  BaseSpAtk="50"  BaseSpDef="65"  BaseSpeed="65" BaseExp=""    EvoLevel=""    NeedsStone="1" ></pokemon>
 	
-	<pokemon id="38" Name="Ninetails" Type="1" Type2="" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
+	<pokemon id="38"  Name="Ninetails" 		Type="1" Type2=""   BaseHp="73"  BaseAttack="76"  BaseDefense="75"  BaseSpAtk="81"  BaseSpDef="100" BaseSpeed="100" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
 	
-	<pokemon id="39" Name="Jigglypuff" Type="0" Type2="17" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
+	<pokemon id="39"  Name="Jigglypuff" 	Type="0" Type2="17" BaseHp="115" BaseAttack="45"  BaseDefense="20"  BaseSpAtk="45"  BaseSpDef="25"  BaseSpeed="20" BaseExp=""    EvoLevel=""    NeedsStone="5" ></pokemon>
 	
-	<pokemon id="40" Name="Wigglytuff" Type="0" Type2="17" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
+	<pokemon id="40"  Name="Wigglytuff" 	Type="0" Type2="17" BaseHp="140" BaseAttack="70"  BaseDefense="45"  BaseSpAtk="85"  BaseSpDef="50"  BaseSpeed="45" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
+	
+	<pokemon id="41"  Name="Zubat" 			Type="6" Type2="4"  BaseHp="40"  BaseAttack="45"  BaseDefense="35"  BaseSpAtk="30"  BaseSpDef="40"  BaseSpeed="55" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
+	
+	<pokemon id="42"  Name="Golbat" 		Type="6" Type2="4"  BaseHp="75"  BaseAttack="80"  BaseDefense="70"  BaseSpAtk="65"  BaseSpDef="75"  BaseSpeed="90" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
+    
+    <pokemon id=" 43" Name="Oddish" 		Type="5" Type2="6"  BaseHp="45"  BaseAttack="50"  BaseDefense="55"  BaseSpAtk="75"  BaseSpDef="65"  BaseSpeed="30" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
+	
+	<pokemon id="44"  Name="Gloom" 			Type="5" Type2="6"  BaseHp="60"  BaseAttack="65"  BaseDefense="70"  BaseSpAtk="85"  BaseSpDef="75"  BaseSpeed="40" BaseExp=""    EvoLevel=""    NeedsStone="4,6" ></pokemon>
+	
+	<pokemon id="45"  Name="Vileplume" 		Type="5" Type2="6"  BaseHp="75"  BaseAttack="80"  BaseDefense="85"  BaseSpAtk="110" BaseSpDef="90"  BaseSpeed="50" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
+	
+	<pokemon id="46"  Name="Paras" 			Type="12" Type2="5" BaseHp="35"  BaseAttack="70"  BaseDefense="55"  BaseSpAtk="45"  BaseSpDef="55"  BaseSpeed="25" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
+	
+	<pokemon id="47"  Name="Parasect" 		Type="12" Type2="5" BaseHp="60"  BaseAttack="95"  BaseDefense="80"  BaseSpAtk="60"  BaseSpDef="80"  BaseSpeed="30" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
+	
+	<pokemon id="48"  Name="Venonat" 		Type="12" Type2="6" BaseHp="60"  BaseAttack="55"  BaseDefense="50"  BaseSpAtk="40"  BaseSpDef="55"  BaseSpeed="45" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
+	
+	<pokemon id="49"  Name="Venomoth" 		Type="12" Type2="6" BaseHp="70"  BaseAttack="65"  BaseDefense="60"  BaseSpAtk="90"  BaseSpDef="75"  BaseSpeed="90" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
+	
+	<pokemon id="50"  Name="Diglett" 		Type="8" Type2=""   BaseHp="10"  BaseAttack="55"  BaseDefense="25"  BaseSpAtk="35"  BaseSpDef="45"  BaseSpeed="95" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
+	
+	<pokemon id="51"  Name="Dugtrio" 		Type="8" Type2=""   BaseHp="35"  BaseAttack="80"  BaseDefense="50"  BaseSpAtk="50"  BaseSpDef="70"  BaseSpeed="120" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
+	
+	<pokemon id="52"  Name="Meowth" 		Type="0" Type2=""   BaseHp="40"  BaseAttack="45"  BaseDefense="35"  BaseSpAtk="40"  BaseSpDef="40"  BaseSpeed="90" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
+	
+	<pokemon id="53"  Name="Persian" 		Type="0" Type2=""   BaseHp="65"  BaseAttack="70"  BaseDefense="60"  BaseSpAtk="65"  BaseSpDef="65"  BaseSpeed="115" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
+	
+	<pokemon id="54"  Name="Psyduck" 		Type="3" Type2=""   BaseHp="50"  BaseAttack="52"  BaseDefense="48"  BaseSpAtk="65"  BaseSpDef="50"  BaseSpeed="55" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
+	
+	<pokemon id="55"  Name="Golduck" 		Type="3" Type2=""   BaseHp="80"  BaseAttack="82"  BaseDefense="78"  BaseSpAtk="95"  BaseSpDef="80"  BaseSpeed="85" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
+	
+	<pokemon id="56"  Name="Mankey" 		Type="2" Type2=""   BaseHp="40"  BaseAttack="80"  BaseDefense="35"  BaseSpAtk="35"  BaseSpDef="45"  BaseSpeed="70" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
+	
+	<pokemon id="57"  Name="Primeape" 		Type="2" Type2=""   BaseHp="65"  BaseAttack="105" BaseDefense="60"  BaseSpAtk="60"  BaseSpDef="70"  BaseSpeed="95" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
+	
+	<pokemon id="58"  Name="Growlithe" 		Type="1" Type2=""   BaseHp="55"  BaseAttack="70"  BaseDefense="45"  BaseSpAtk="70"  BaseSpDef="50"  BaseSpeed="60" BaseExp=""    EvoLevel=""    NeedsStone="1" ></pokemon>
+	
+	<pokemon id="59"  Name="Arcanine" 		Type="1" Type2=""   BaseHp="90"  BaseAttack="110" BaseDefense="80"  BaseSpAtk="100" BaseSpDef="80"  BaseSpeed="95" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
+	
+	<pokemon id="60"  Name="Poliwag" 		Type="3" Type2=""   BaseHp="40"  BaseAttack="50"  BaseDefense="40"  BaseSpAtk="40"  BaseSpDef="40"  BaseSpeed="90" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
+	
+	<pokemon id="61"  Name="Poliwhirl" 		Type="3" Type2=""   BaseHp="65"  BaseAttack="65"  BaseDefense="65"  BaseSpAtk="50"  BaseSpDef="50"  BaseSpeed="90" BaseExp=""    EvoLevel=""    NeedsStone="2" ></pokemon>
+	
+	<pokemon id="62"  Name="Poliwrath" 		Type="3" Type2="2"  BaseHp="90"  BaseAttack="95"  BaseDefense="95"  BaseSpAtk="70"  BaseSpDef="90"  BaseSpeed="70" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
+	
+	<pokemon id="63"  Name="Abra" 			Type="9" Type2=""   BaseHp="25"  BaseAttack="20"  BaseDefense="15"  BaseSpAtk="105" BaseSpDef="55"  BaseSpeed="90" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
+	
+	<pokemon id="64"  Name="Kadabra" 		Type="9" Type2=""   BaseHp="40"  BaseAttack="35"  BaseDefense="30"  BaseSpAtk="120" BaseSpDef="70"  BaseSpeed="105" BaseExp=""    EvoLevel=""    NeedsStone="10" ></pokemon>
+	
+	<pokemon id="65"  Name="Alakazam" 		Type="9" Type2=""   BaseHp="55"  BaseAttack="50"  BaseDefense="45"  BaseSpAtk="135" BaseSpDef="95"  BaseSpeed="120" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
+	
+	<pokemon id="66"  Name="Machop" 		Type="2" Type2=""   BaseHp="70"  BaseAttack="80"  BaseDefense="50"  BaseSpAtk="35"  BaseSpDef="35"  BaseSpeed="35" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
+	
+	<pokemon id="67"  Name="Machoke" 		Type="2" Type2=""   BaseHp="80"  BaseAttack="100" BaseDefense="70"  BaseSpAtk="50"  BaseSpDef="60"  BaseSpeed="45" BaseExp=""    EvoLevel=""    NeedsStone="10" ></pokemon>
+	
+	<pokemon id="68"  Name="Machamp" 		Type="2" Type2=""   BaseHp="90"  BaseAttack="130" BaseDefense="80"  BaseSpAtk="65"  BaseSpDef="85"  BaseSpeed="55" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
+	
+	<pokemon id="69"  Name="Bellsprout" 	Type="5" Type2="6"  BaseHp="50"  BaseAttack="75"  BaseDefense="35"  BaseSpAtk="70"  BaseSpDef="30"  BaseSpeed="40" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
+	
+	<pokemon id="70"  Name="Weepinbell" 	Type="5" Type2="6"  BaseHp="65"  BaseAttack="90"  BaseDefense="50"  BaseSpAtk="85"  BaseSpDef="45"  BaseSpeed="55" BaseExp=""    EvoLevel=""    NeedsStone="4" ></pokemon>
+	
+	<pokemon id="71"  Name="Victreebel" 	Type="5" Type2="6"  BaseHp="80"  BaseAttack="105" BaseDefense="65"  BaseSpAtk="100" BaseSpDef="70"  BaseSpeed="70" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
+	
+	<pokemon id="72"  Name="Tentacool" 		Type="3" Type2="6"  BaseHp="40"  BaseAttack="40"  BaseDefense="35"  BaseSpAtk="50"  BaseSpDef="100" BaseSpeed="70" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
+	
+	<pokemon id="73"  Name="Tentacruel" 	Type="3" Type2="6"  BaseHp="80"  BaseAttack="70"  BaseDefense="65"  BaseSpAtk="80"  BaseSpDef="120" BaseSpeed="100" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
+	
+	<pokemon id="74"  Name="Geodude" 		Type="10" Type2="8" BaseHp="40"  BaseAttack="80"  BaseDefense="100" BaseSpAtk="30"  BaseSpDef="30"  BaseSpeed="20" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
+	
+	<pokemon id="75"  Name="Graveler" 		Type="10" Type2="8" BaseHp="55"  BaseAttack="95"  BaseDefense="115" BaseSpAtk="45"  BaseSpDef="45"  BaseSpeed="35" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
+	
+	<pokemon id="76"  Name="Golem" 			Type="10" Type2="8" BaseHp="80"  BaseAttack="120" BaseDefense="130" BaseSpAtk="55"  BaseSpDef="65"  BaseSpeed="45" BaseExp=""    EvoLevel=""    NeedsStone="10" ></pokemon>
+	
+	<pokemon id="77"  Name="Ponyta" 		Type="1" Type2=""   BaseHp="50"  BaseAttack="85"  BaseDefense="55"  BaseSpAtk="65"  BaseSpDef="65"  BaseSpeed="90" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
+	
+	<pokemon id="78"  Name="Rapidash" 		Type="1" Type2=""   BaseHp="65"  BaseAttack="100" BaseDefense="70"  BaseSpAtk="80"  BaseSpDef="80"  BaseSpeed="105" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
+	
+	<pokemon id="79"  Name="Slowpoke" 		Type="3" Type2="9"  BaseHp="90"  BaseAttack="65"  BaseDefense="65"  BaseSpAtk="40"  BaseSpDef="40"  BaseSpeed="15" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
+	
+	<pokemon id="80"  Name="Slowbro" 		Type="3" Type2="9"  BaseHp="95"  BaseAttack="75"  BaseDefense="110" BaseSpAtk="100" BaseSpDef="80"  BaseSpeed="30" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
+	
+	<pokemon id="81"  Name="Magnemite" 		Type="7" Type2="16" BaseHp="25"  BaseAttack="35"  BaseDefense="70"  BaseSpAtk="95"  BaseSpDef="55"  BaseSpeed="45" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon> 
+	
+	<pokemon id="82"  Name="Magneton" 		Type="7" Type2="16" BaseHp="50"  BaseAttack="60"  BaseDefense="95"  BaseSpAtk="120" BaseSpDef="70"  BaseSpeed="70" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
+	
+	<pokemon id="83"  Name="Farfetch'd" 	Type="0" Type2="4"  BaseHp="52"  BaseAttack="65"  BaseDefense="55"  BaseSpAtk="58"  BaseSpDef="62"  BaseSpeed="60" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
+	
+	<pokemon id="84"  Name="Doduo" 			Type="0" Type2="4"  BaseHp="35"  BaseAttack="85"  BaseDefense="45"  BaseSpAtk="35"  BaseSpDef="35"  BaseSpeed="75" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
+	
+	<pokemon id="85"  Name="Dodrio" 		Type="0" Type2="4"  BaseHp="60"  BaseAttack="110" BaseDefense="70"  BaseSpAtk="60"  BaseSpDef="60"  BaseSpeed="100" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
+	
+	<pokemon id="86"  Name="Seel" 			Type="3" Type2=""   BaseHp="65"  BaseAttack="45"  BaseDefense="55"  BaseSpAtk="45"  BaseSpDef="70"  BaseSpeed="45" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
+	
+	<pokemon id="87"  Name="Dewgong" 		Type="3" Type2="11" BaseHp="90"  BaseAttack="70"  BaseDefense="80"  BaseSpAtk="70"  BaseSpDef="95"  BaseSpeed="70" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
+	
+	<pokemon id="88"  Name="Grimer" 		Type="6" Type2=""   BaseHp="80"  BaseAttack="80"  BaseDefense="50"  BaseSpAtk="40"  BaseSpDef="50"  BaseSpeed="25" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
+	
+	<pokemon id="89"  Name="Muk" 			Type="6" Type2=""   BaseHp="105" BaseAttack="105" BaseDefense="75"  BaseSpAtk="65"  BaseSpDef="100" BaseSpeed="50" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
+	
+	<pokemon id="90"  Name="Shellder" 		Type="3" Type2=""   BaseHp="30"  BaseAttack="65"  BaseDefense="100" BaseSpAtk="45"  BaseSpDef="25"  BaseSpeed="40" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
+	
+	<pokemon id="91"  Name="Cloyster" 		Type="3" Type2="11" BaseHp="50"  BaseAttack="95"  BaseDefense="180" BaseSpAtk="85"  BaseSpDef="45"  BaseSpeed="70" BaseExp=""    EvoLevel=""    NeedsStone="falsefalse" ></pokemon>
+	
+	<pokemon id="92"  Name="Gastly" 		Type="14" Type2="6" BaseHp="30"  BaseAttack="35"  BaseDefense="30"  BaseSpAtk="100" BaseSpDef="35"  BaseSpeed="80" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
+	
+	<pokemon id="93"  Name="Haunter" 		Type="14" Type2="6" BaseHp="45"  BaseAttack="50"  BaseDefense="45"  BaseSpAtk="115" BaseSpDef="55"  BaseSpeed="95" BaseExp=""    EvoLevel=""    NeedsStone="10" ></pokemon>
+	
+	<pokemon id="94"  Name="Gengar" 		Type="14" Type2="6" BaseHp="60"  BaseAttack="65"  BaseDefense="60"  BaseSpAtk="130" BaseSpDef="75"  BaseSpeed="110" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
+	
+	<pokemon id="95"  Name="Onix" 			Type="10" Type2="8" BaseHp="35"  BaseAttack="45"  BaseDefense="160" BaseSpAtk="30"  BaseSpDef="45"  BaseSpeed="70" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
+	
+	<pokemon id="96"  Name="Drowzee" 		Type="9" Type2=""   BaseHp="60"  BaseAttack="48"  BaseDefense="45"  BaseSpAtk="43"  BaseSpDef="90"  BaseSpeed="42" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
+	
+	<pokemon id="97"  Name="Hypno" 			Type="9" Type2=""   BaseHp="85"  BaseAttack="73"  BaseDefense="70"  BaseSpAtk="73"  BaseSpDef="115" BaseSpeed="67" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
+	
+	<pokemon id="98"  Name="Krabby" 		Type="3" Type2=""   BaseHp="30"  BaseAttack="105" BaseDefense="90"  BaseSpAtk="25"  BaseSpDef="25"  BaseSpeed="50" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
+	
+	<pokemon id="99"  Name="Kingler" 		Type="3" Type2=""   BaseHp="55"  BaseAttack="130" BaseDefense="115" BaseSpAtk="50"  BaseSpDef="50"  BaseSpeed="75" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
+	
+	<pokemon id="100" Name="Voltorb" 		Type="7" Type2=""   BaseHp="40"  BaseAttack="30"  BaseDefense="50"  BaseSpAtk="55"  BaseSpDef="55"  BaseSpeed="100" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
+	
+	<pokemon id="101" Name="Electrode" 		Type="7" Type2=""   BaseHp="60"  BaseAttack="50"  BaseDefense="70"  BaseSpAtk="80"  BaseSpDef="80"  BaseSpeed="140" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
+	
+	<pokemon id="102" Name="Exeggcute" 		Type="5" Type2="9"  BaseHp="60"  BaseAttack="40"  BaseDefense="80"  BaseSpAtk="60"  BaseSpDef="45"  BaseSpeed="40" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
+	
+	<pokemon id="103" Name="Exeggutor" 		Type="5" Type2="9"  BaseHp="95"  BaseAttack="95"  BaseDefense="85"  BaseSpAtk="125" BaseSpDef="65"  BaseSpeed="55" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
+	
+	<pokemon id="104" Name="Cubone" 		Type="8" Type2=""   BaseHp="50"  BaseAttack="50"  BaseDefense="95"  BaseSpAtk="40"  BaseSpDef="50"  BaseSpeed="35" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
+	
+	<pokemon id="105" Name="Marowak" 		Type="8" Type2=""   BaseHp="60"  BaseAttack="80"  BaseDefense="110" BaseSpAtk="50"  BaseSpDef="80"  BaseSpeed="45" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
+	
+	<pokemon id="106" Name="Hitmonlee" 		Type="2" Type2=""   BaseHp="50"  BaseAttack="120" BaseDefense="53"  BaseSpAtk="35"  BaseSpDef="110" BaseSpeed="87" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
+	
+	<pokemon id="107" Name="Hitmonchan" 	Type="2" Type2=""   BaseHp="50"  BaseAttack="105" BaseDefense="79"  BaseSpAtk="35"  BaseSpDef="110" BaseSpeed="76" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
+	
+	<pokemon id="108" Name="Lickitung" 		Type="0" Type2=""   BaseHp="90"  BaseAttack="55"  BaseDefense="75"  BaseSpAtk="60"  BaseSpDef="75"  BaseSpeed="30" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
+	
+	<pokemon id="109" Name="Koffing" 		Type="6" Type2=""   BaseHp="40"  BaseAttack="65"  BaseDefense="95"  BaseSpAtk="60"  BaseSpDef="45"  BaseSpeed="35" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
+	
+	<pokemon id="110" Name="Weezing" 		Type="6" Type2=""   BaseHp="65"  BaseAttack="90"  BaseDefense="120" BaseSpAtk="85"  BaseSpDef="70"  BaseSpeed="60" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
+	
+	<pokemon id="111" Name="Rhyhorn" 		Type="8" Type2="10" BaseHp="80"  BaseAttack="85"  BaseDefense="95"  BaseSpAtk="30"  BaseSpDef="30"  BaseSpeed="25" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
+	
+	<pokemon id="112" Name="Rhydon" 		Type="8" Type2="10" BaseHp="105" BaseAttack="130" BaseDefense="120" BaseSpAtk="45"  BaseSpDef="45"  BaseSpeed="40" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
+	
+	<pokemon id="113" Name="Chansey" 		Type="0" Type2=""   BaseHp="250" BaseAttack="5"   BaseDefense="5"   BaseSpAtk="35"  BaseSpDef="105" BaseSpeed="50" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
+	
+	<pokemon id="114" Name="Tangela" 		Type="5" Type2=""   BaseHp="65"  BaseAttack="55"  BaseDefense="115" BaseSpAtk="100" BaseSpDef="40"  BaseSpeed="60" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
+	
+	<pokemon id="115" Name="Kangaskhan" 	Type="0" Type2=""   BaseHp="105" BaseAttack="95"  BaseDefense="80"  BaseSpAtk="40"  BaseSpDef="80"  BaseSpeed="90" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
+	
+	<pokemon id="116" Name="Horsea" 		Type="3" Type2=""   BaseHp="30"  BaseAttack="40"  BaseDefense="70"  BaseSpAtk="70"  BaseSpDef="25"  BaseSpeed="60" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
+	
+	<pokemon id="117" Name="Seadra" 		Type="3" Type2=""   BaseHp="55"  BaseAttack="65"  BaseDefense="95"  BaseSpAtk="95"  BaseSpDef="45"  BaseSpeed="85" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
+	
+	<pokemon id="118" Name="Goldeen" 		Type="3" Type2=""   BaseHp="45"  BaseAttack="67"  BaseDefense="60"  BaseSpAtk="35"  BaseSpDef="50"  BaseSpeed="63" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
+	
+	<pokemon id="119" Name="Seaking" 		Type="3" Type2=""   BaseHp="80"  BaseAttack="92"  BaseDefense="65"  BaseSpAtk="65"  BaseSpDef="80"  BaseSpeed="68" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
+	
+	<pokemon id="120" Name="Staryu" 		Type="3" Type2=""   BaseHp="30"  BaseAttack="45"  BaseDefense="55"  BaseSpAtk="70"  BaseSpDef="55"  BaseSpeed="85" BaseExp=""    EvoLevel=""    NeedsStone="2" ></pokemon>
+	
+	<pokemon id="121" Name="Starmie" 		Type="3" Type2="9"  BaseHp="60"  BaseAttack="75"  BaseDefense="85"  BaseSpAtk="100" BaseSpDef="85"  BaseSpeed="115" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
+	
+	<pokemon id="122" Name="Mr. Mime" 		Type="9" Type2="17" BaseHp="40"  BaseAttack="45"  BaseDefense="65"  BaseSpAtk="100" BaseSpDef="120" BaseSpeed="90" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
+	
+	<pokemon id="123" Name="Scyther" 		Type="12" Type2="4" BaseHp="70"  BaseAttack="110" BaseDefense="80"  BaseSpAtk="55"  BaseSpDef="80"  BaseSpeed="105" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
+	
+	<pokemon id="124" Name="Jynx" 			Type="11" Type2="9" BaseHp="65"  BaseAttack="50"  BaseDefense="35"  BaseSpAtk="115" BaseSpDef="95"  BaseSpeed="95" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
+	
+	<pokemon id="125" Name="Electabuzz" 	Type="7" Type2=""   BaseHp="65"  BaseAttack="83"  BaseDefense="57"  BaseSpAtk="95"  BaseSpDef="85"  BaseSpeed="105" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
+	
+	<pokemon id="126" Name="Magmar" 		Type="1" Type2=""   BaseHp="65"  BaseAttack="95"  BaseDefense="57"  BaseSpAtk="100" BaseSpDef="85"  BaseSpeed="93" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
+	
+	<pokemon id="127" Name="Pinsir" 		Type="12" Type2=""  BaseHp="65"  BaseAttack="125" BaseDefense="100" BaseSpAtk="55"  BaseSpDef="70"  BaseSpeed="85" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
+	
+	<pokemon id="128" Name="Tauros" 		Type="0" Type2=""   BaseHp="75"  BaseAttack="100" BaseDefense="95"  BaseSpAtk="40"  BaseSpDef="70"  BaseSpeed="110" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
+	
+	<pokemon id="129" Name="Magikarp" 		Type="3" Type2=""   BaseHp="20"  BaseAttack="10"  BaseDefense="55"  BaseSpAtk="15"  BaseSpDef="20"  BaseSpeed="80" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
+	
+	<pokemon id="130" Name="Gyarados" 		Type="3" Type2="4"  BaseHp="95"  BaseAttack="125" BaseDefense="79"  BaseSpAtk="60"  BaseSpDef="100"  BaseSpeed="81" BaseExp=""    EvoLevel=""    NeedsStone="false" ></pokemon>
 
-	<pokemon id="41" Name="Zubat" Type="6" Type2="4" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-
-	<pokemon id="42" Name="Golbat" Type="6" Type2="4" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-
-	<pokemon id="43" Name="Oddish" Type="5" Type2="6" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-	
-	<pokemon id="44" Name="Gloom" Type="5" Type2="6" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-	
-	<pokemon id="45" Name="Vileplume" Type="5" Type2="6" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-	
-	<pokemon id="46" Name="Paras" Type="12" Type2="5" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-	
-	<pokemon id="47" Name="Parasect" Type="12" Type2="5" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-	
-	<pokemon id="48" Name="Venonat" Type="12" Type2="6" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-	
-	<pokemon id="49" Name="Venomoth" Type="12" Type2="6" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-	
-	<pokemon id="50" Name="Diglett" Type="8" Type2="" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-	
-	<pokemon id="51" Name="Dugtrio" Type="8" Type2="" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-
-	<pokemon id="52" Name="Meowth" Type="0" Type2="" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-
-	<pokemon id="53" Name="Persian" Type="0" Type2="" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-	
-	<pokemon id="54" Name="Psyduck" Type="3" Type2="" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-	
-	<pokemon id="55" Name="Golduck" Type="3" Type2="" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-	
-	<pokemon id="56" Name="Mankey" Type="2" Type2="" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-	
-	<pokemon id="57" Name="Primeape" Type="2" Type2="" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-	
-	<pokemon id="58" Name="Growlithe" Type="1" Type2="" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-	
-	<pokemon id="59" Name="Arcanine" Type="1" Type2="" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-	
-	<pokemon id="60" Name="Poliwag" Type="3" Type2="" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-	
-	<pokemon id="61" Name="Poliwhirl" Type="3" Type2="" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-
-	<pokemon id="62" Name="Poliwrath" Type="3" Type2="2" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-
-	<pokemon id="63" Name="Abra" Type="9" Type2="" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-	
-	<pokemon id="64" Name="Kadabra" Type="9" Type2="" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-	
-	<pokemon id="65" Name="Alakazam" Type="9" Type2="" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-	
-	<pokemon id="66" Name="Machop" Type="2" Type2="" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-	
-	<pokemon id="67" Name="Machoke" Type="2" Type2="" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-	
-	<pokemon id="68" Name="Machamp" Type="2" Type2="" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-	
-	<pokemon id="69" Name="Bellsprout" Type="5" Type2="6" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-	
-	<pokemon id="70" Name="Weepinbell" Type="5" Type2="6" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-	
-	<pokemon id="71" Name="Victreebel" Type="5" Type2="6" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-
-	<pokemon id="72" Name="Tentacool" Type="3" Type2="6" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-
-	<pokemon id="73" Name="Tentacruel" Type="3" Type2="6" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-	
-	<pokemon id="74" Name="Geodude" Type="10" Type2="8" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-	
-	<pokemon id="75" Name="Graveler" Type="10" Type2="8" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-	
-	<pokemon id="76" Name="Golem" Type="10" Type2="8" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-	
-	<pokemon id="77" Name="Ponyta" Type="1" Type2="" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-	
-	<pokemon id="78" Name="Rapidash" Type="1" Type2="" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-	
-	<pokemon id="79" Name="Slowpoke" Type="3" Type2="9" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-	
-	<pokemon id="80" Name="Slowbro" Type="3" Type2="9" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-	
-	<pokemon id="81" Name="Magnemite" Type="7" Type2="16" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-
-	<pokemon id="82" Name="Magneton" Type="7" Type2="16" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-
-	<pokemon id="83" Name="Farfetch'd" Type="0" Type2="4" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-	
-	<pokemon id="84" Name="Doduo" Type="0" Type2="4" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-	
-	<pokemon id="85" Name="Dodrio" Type="0" Type2="4" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-	
-	<pokemon id="86" Name="Seel" Type="3" Type2="" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-	
-	<pokemon id="87" Name="Dewgong" Type="3" Type2="11" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-	
-	<pokemon id="88" Name="Grimer" Type="6" Type2="" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-	
-	<pokemon id="89" Name="Muk" Type="6" Type2="" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-	
-	<pokemon id="90" Name="Shellder" Type="3" Type2="" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-	
-	<pokemon id="91" Name="Cloyster" Type="3" Type2="11" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-
-	<pokemon id="92" Name="Gastly" Type="14" Type2="6" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-
-	<pokemon id="93" Name="Haunter" Type="14" Type2="6" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-	
-	<pokemon id="94" Name="Gengar" Type="14" Type2="6" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-	
-	<pokemon id="95" Name="Onix" Type="10" Type2="8" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-	
-	<pokemon id="96" Name="Drowzee" Type="9" Type2="" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-	
-	<pokemon id="97" Name="Hypno" Type="9" Type2="" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-	
-	<pokemon id="98" Name="Krabby" Type="3" Type2="" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-	
-	<pokemon id="99" Name="Kingler" Type="3" Type2="" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-	
-	<pokemon id="100" Name="Voltorb" Type="7" Type2="" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-	
-	<pokemon id="101" Name="Electrode" Type="7" Type2="" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-
-	<pokemon id="102" Name="Exeggcute" Type="5" Type2="9" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-
-	<pokemon id="103" Name="Exeggutor" Type="5" Type2="9" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-	
-	<pokemon id="104" Name="Cubone" Type="8" Type2="" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-	
-	<pokemon id="105" Name="Marowak" Type="8" Type2="" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-	
-	<pokemon id="106" Name="Hitmonlee" Type="2" Type2="" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-	
-	<pokemon id="107" Name="Hitmonchan" Type="2" Type2="" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-	
-	<pokemon id="108" Name="Lickitung" Type="0" Type2="" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-	
-	<pokemon id="109" Name="Koffing" Type="6" Type2="" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-	
-	<pokemon id="110" Name="Weezing" Type="6" Type2="" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-	
-	<pokemon id="111" Name="Rhyhorn" Type="8" Type2="10" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-
-	<pokemon id="112" Name="Rhydon" Type="8" Type2="10" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-
-	<pokemon id="113" Name="Chansey" Type="0" Type2="" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-	
-	<pokemon id="114" Name="Tangela" Type="5" Type2="" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-	
-	<pokemon id="115" Name="Kangaskhan" Type="0" Type2="" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-	
-	<pokemon id="116" Name="Horsea" Type="3" Type2="" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-	
-	<pokemon id="117" Name="Seadra" Type="3" Type2="" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-	
-	<pokemon id="118" Name="Goldeen" Type="3" Type2="" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-	
-	<pokemon id="119" Name="Seaking" Type="3" Type2="" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-	
-	<pokemon id="120" Name="Staryu" Type="3" Type2="" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-	
-	<pokemon id="121" Name="Starmie" Type="3" Type2="9" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-
-	<pokemon id="122" Name="Mr. Mime" Type="9" Type2="17" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-
-	<pokemon id="123" Name="Scyther" Type="12" Type2="4" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-	
-	<pokemon id="124" Name="Jynx" Type="11" Type2="9" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-	
-	<pokemon id="125" Name="Electabuzz" Type="7" Type2="" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-	
-	<pokemon id="126" Name="Magmar" Type="1" Type2="" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-	
-	<pokemon id="127" Name="Pinsir" Type="12" Type2="" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-	
-	<pokemon id="128" Name="Tauros" Type="0" Type2="" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-	
-	<pokemon id="129" Name="Magikarp" Type="3" Type2="" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
-	
-	<pokemon id="130" Name="Gyarados" Type="3" Type2="4" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
 	
 </data>
 
@@ -270,7 +271,7 @@
 *	This is for reference
 *
 *	Template
-	<pokemon id="" Name="" Type="" Type2="" BaseHp="" BaseAttack="" BaseDefense="" BaseSpAtk="" BaseSpDef="" BaseSpeed="" BaseExp="" EvoLevel="" NeedsStone="" ></pokemon>
+	<pokemon id=""    Name=""				Type=""  Type2=""   BaseHp=""	 BaseAttack=""    BaseDefense=""    BaseSpAtk=""    BaseSpDef=""     BaseSpeed=""  BaseExp=""    EvoLevel=""    NeedsStone=""      ></pokemon>
 *
 *	NEEDED: Id
 *	Name
