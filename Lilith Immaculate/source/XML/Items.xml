@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<item id="1"  name="Wooden Sword" 			imag="test__PNG" 	itemType="1" minDmg="1" maxDmg="5" hasStat="false" isMagic="false" />
+	<item id="2"  name="Dulled Dagger" 			imag="test__PNG" 	itemType="1" minDmg="2" maxDmg="3" hasStat="false" isMagic="false" />
+	<item id="3"  name="Wooden Staff" 			imag="test__PNG" 	itemType="2" minDmg="2" maxDmg="6" hasStat="false" isMagic="false" />
+	<item id="4"  name="Practice Greatsword" 	imag="test__PNG" 	itemType="2" minDmg="3" maxDmg="6" hasStat="false" isMagic="false" />
+	<item id="5"  name="Wooden Shield" 			imag="test__PNG" 	itemType="3" minDmg="0" maxDmg="0" hasStat="true"  isMagic="false" def="5" block="10" />
+	<item id="6"  name="Ramchackled Wand" 		imag="test__PNG" 	itemType="1" minDmg="1" maxDmg="3" hasStat="false" isMagic="true" />
+	<item id="7"  name="Worn Tome" 				imag="test__PNG" 	itemType="3" minDmg="0" maxDmg="0" hasStat="true"  isMagic="true" magic="3" />
+	<item id="8"  name="Tattered Tunic" 		imag="test__PNG" 	itemType="4" equipType="2" def="5" hasStat="false" />
+	<item id="9"  name="Rusted Cheestplate" 	imag="test__PNG" 	itemType="4" equipType="2" def="7" hasStat="false" />
+	<item id="10" name="Torn Robes" 			imag="test__PNG" 	itemType="4" equipType="2" def="3" hasStat="false" />
+	<item id="11" name="Iron Ring" 				imag="test__PNG" 	itemType="5" def="2" atk="1" magic="1" />
+	
+	
+	
+	
+	
+	<!--
+	
+		* 	
+		* 	~ITEM TYPE NUMERS ARE AS FOLLOWS~	
+		*	
+		*	1 = One Handed Main Handed Weapons
+		*	2 = Two Handed Weapons
+		*	3 = Off Handed Weapons/Items
+		*	4 = Clothing (Equipment Type* See Below!)
+		*	5 = Accessories
+		*	6 = Consumable
+		*	7 = Key Items
+		*	(More to come if needed)
+		*	// Block is percentage based
+		*	// As of now, bonus magic adds to min-max damage by that much (Might be too strong)
+		*	// Shields MUST have Def and Block unless Artifact/Legendary
+		*	// Basic Weapon Template *** <item id="" name="" itemType="" minDmg="" maxDmg="" hasStat="" isMagic="" /> ***
+		*	// Will Add More To This When Time Goes On (MAYBE)
+		*	
+		*	
+		*	~EQUIPMENT TYPE NUMBERS ARE AS FOLLOWS~
+		*	1 = Helm
+		*	2 = Chest
+		*	3 = Gloves
+		*	4 = Leggins
+		*	5 = Boots
+		*	(More if need be (Doubt It!))
+		*	// Might add more later to equipment (Basic Equipment) but it's fine for now
+		*	// Basic Equipment Template *** <item id="" name="" itemType="" equipType="" def="" hasStat="" /> ***
+		*	// Can't think of what more to add to equipment at this point, everything else will be Advanced Equipment
+		*	
+		*	
+		*	~STATS ADD-ONS~
+		*	
+		*	- Block
+		*	- Strength
+		*	- Dexterity
+		*	- Intelligence
+		*	- Vitality
+		*	- Willpower
+		*	- Luck
+		*	- Attack
+		*	- Magic 
+		*	- Gold Find (By Percentage)
+		*	- Magic Find (By Percentage) 
+		*	- Enchant (Will work on this later)
+		*	
+		
+		-->
+</data>
