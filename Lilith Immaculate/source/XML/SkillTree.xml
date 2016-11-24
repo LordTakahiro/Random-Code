@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<fighter>
+		<warrior>
+			<berserker>
+				
+			</berserker>
+		</warrior>
+	</fighter>
+	<wizard>
+		<sorcerer>
+			<archmage>
+				
+			</archmage>
+		</sorcerer>
+	</wizard>
+	<thief>
+		<rogue>
+			<assassin>
+				
+			</assassin>
+		</rogue>
+	</thief>
+	<priest>
+		<cleric>
+			<paladin>
+				
+			</paladin>
+		</cleric>
+	</priest>
+</data>

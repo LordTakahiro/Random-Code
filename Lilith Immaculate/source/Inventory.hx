@@ -6,6 +6,7 @@ package;
  import flixel.FlxSprite;
  import flixel.addons.display.FlxExtendedSprite;
  import flixel.group.FlxGroup.FlxTypedGroup;
+ import flixel.input.mouse.FlxMouseEventManager;
  import flixel.text.FlxText;
  import flixel.ui.FlxButton;
  import flixel.util.FlxColor;
@@ -20,15 +21,14 @@ package;
 	 
 	 private static var MAX_SLOTS:Int = 6;
 	 private static var MAX_SPACING:Int = 34; 
-	 private var _sprSlot:FlxExtendedSprite;
      private var _sprBack:FlxSprite;
 	 private var _btnLeft:FlxButton;
 	 private var _btnRight:FlxButton;
-	 private var slotArry:Array<FlxSprite>;
+	 private var _slotArry:Array<FlxSprite>;
 
      public function new(equipment:Array<Dynamic>) { 
          super();
-		 slotArry = new Array<FlxSprite>();
+		 _slotArry = new Array<FlxSprite>();
          _sprBack = new FlxSprite().makeGraphic(320, 240, FlxColor.BLACK); // This just draws separators
          _sprBack.drawRect(0, 175, 320, 1, FlxColor.WHITE);
 		 _sprBack.drawRect(130, 0, 1, 175, FlxColor.WHITE);
@@ -48,7 +48,10 @@ package;
 		 add(_sprBack);
 		 add(_btnLeft);
 		 add(_btnRight);
-		 createSlots();
+		 
+		 FlxG.plugins.add(new FlxMouseEventManager());
+ 		 createSlots(); 
+
          forEach(function(spr:FlxSprite)
          {
              spr.scrollFactor.set(0, 0);
@@ -57,24 +60,11 @@ package;
 	 
 	 private function createSlots():Void {	//Creating inventory slots
 		 var i:Int = 0;
-		 var tempX:Float = 0;
 		 while (i < MAX_SLOTS) {
-			 _sprSlot = new FlxExtendedSprite();
-			 _sprSlot.loadGraphic(AssetPaths.invSlot__png);
-			 add(_sprSlot);
-			 if (i == 0) {
-				 _sprSlot.x = 45;
-				 tempX = _sprSlot.x;
-				 _sprSlot.setGraphicSize(32, 32);
-				 _sprSlot.y = 174;
-			 }
-			 else {
-				 _sprSlot.setGraphicSize(32, 32);
-				 _sprSlot.x = tempX + MAX_SPACING;
-				 tempX = _sprSlot.x;
-				 _sprSlot.y = 174;
-			 }
-			 slotArry.insert(i, _sprSlot);
+			 
+			 var slots:InvSlot = new InvSlot(45, 174, MAX_SPACING, 0, i);
+			 add(slots);
+			 _slotArry.insert(i, slots);
 			 i++;
 		 }
 	 }

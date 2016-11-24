@@ -215,9 +215,9 @@ class ApplicationMain {
 		
 		config = {
 			
-			build: "422",
+			build: "490",
 			company: "HaxeFlixel",
-			file: "Lilith Immaculate",
+			file: "Lilith_Immaculate",
 			fps: 60,
 			name: "Lilith Immaculate",
 			orientation: "",
